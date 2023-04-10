@@ -1,11 +1,15 @@
 # monstache-sync
+
 MongoDB to ElasticSearch Sync using Monstache
 
 ## Docker build
 
-```docker build -t monstache:latest .```
+```
+docker build -t monstache:latest .
+```
 
 ## Docker run
 
-```docker run -d --name monstache monstache:latest```
-
+```
+docker run -d --name monstache monstache:latest
+```
