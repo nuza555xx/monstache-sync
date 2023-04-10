@@ -1,0 +1,29 @@
+mongo-url = "mongodb+srv://{USERNAME}:{PASSWORD}@{HOST}/?retryWrites=true&w=majority"
+elasticsearch-urls = [{HOST}"]
+
+gzip = true
+stats = true
+index-stats = true
+index-as-update=true
+
+elasticsearch-user = "{USERNAME}"
+elasticsearch-password = "{PASSWORD}"
+
+elasticsearch-max-conns = 10
+elasticsearch-max-seconds = 5
+elasticsearch-max-bytes = 8000000
+
+dropped-collections = true
+dropped-databases = true
+
+resume = true
+resume-write-unsafe = true
+resume-name = "default"
+verbose = true
+
+direct-read-namespaces = ["{DB.COLLECTION}"]
+
+
+[[mapping]]
+namespace = "{DB.COLLECTION}"
+index = "{INDEX}"
